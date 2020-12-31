@@ -34,13 +34,13 @@ public class GuestbookController {
 	}
 	
 	@RequestMapping(value="/delete/{no}", method=RequestMethod.GET)
-	public String delete(@PathVariable(value="no") Long no, Model model) {
+	public String delete(@PathVariable("no") Long no, Model model) {
 		model.addAttribute("no", no);
 		return "deleteform";
 	}
 	
 	@RequestMapping(value="/delete/{no}", method=RequestMethod.POST)
-	public String delete(@PathVariable(value="no") Long no, String password) {
+	public String delete(@PathVariable("no") Long no, String password) {
 		guestbookRepository.delete(no, password);
 		return "redirect:/";
 	}
