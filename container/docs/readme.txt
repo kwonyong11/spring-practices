@@ -7,8 +7,9 @@ container.config.user
 == 1day: Basics ========================================
 configuration
 	|----  xml  config(auto config, explicit config)
-	|----  java config
-    (+ junit)
+	|----  java config(auto config, explicit config)
+	
+junit Testing!
 
 
 
