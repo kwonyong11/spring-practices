@@ -29,6 +29,6 @@ public class CDPlayerXMLConfigTest {
 	@Test
 	public void testPlay() {
 		cdPlayer.play();
-		assertEquals("playing 붕붕 by 김하온", systemOutRule.getLog().replace("\r\n", "").replace("\n", ""));
+		assertEquals("playing 지구멸망 by 양승호", systemOutRule.getLog().replace("\r\n", "").replace("\n", ""));
 	}
 }
