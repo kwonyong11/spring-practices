@@ -1,0 +1,34 @@
+[src]
+  |--- [main]
+  |      |--- [java]
+  |      |      |--- container
+  |      |      |        |--- user
+  |      |      |        |--- soundsystem
+  |      |      |        |--- dvdsystem
+  |      |      |        |--- config
+  |      |      |        |      |--- user
+  |      |      |        |      |--- soundsystem
+  |      |      |        |      |--- dvdsystem
+  |      |--- [resources]
+  |      |      |--- container
+  |      |      |        |--- config
+  |      |      |        |      |--- user
+  |      |      |        |      |--- soundsystem
+  |      |      |        |      |--- dvdsystem
+  |--- [test]
+  |      |--- [java]
+  |      |      |--- container
+  |      |      |        |--- user
+  |      |      |        |--- soundsystem
+  |      |      |        |--- dvdsystem
+  |      |--- [resources]
+  
+  
+main
+  java  
+    container.soundsystem
+    container.config.soundsystem
+  resources 
+    container.config.soundsystem
+test
+  container.soundsystem
