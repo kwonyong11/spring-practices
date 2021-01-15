@@ -13,7 +13,7 @@ import container.videosystem.DVDPlayer;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes=DVDPlayerConfig.class)
-public class DVDPlayerMixingConfigTest {
+public class DVDPlayerMixingConfigTest01 {
 	@Autowired
 	private DVDPlayer player;
 	
