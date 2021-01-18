@@ -12,6 +12,6 @@
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<context:annotation-config />
-	<context:component-scan base-package="com.bitacademy.hellospring03.controller" />
+	<context:component-scan base-package="com.bitacademy.hellospring.controller" />
 
 </beans>

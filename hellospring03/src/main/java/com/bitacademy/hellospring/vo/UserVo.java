@@ -1,4 +1,4 @@
-package com.bitacademy.hellospring03.vo;
+package com.bitacademy.hellospring.vo;
 
 public class UserVo {
 	private Long no;

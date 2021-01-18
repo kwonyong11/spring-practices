@@ -1,4 +1,4 @@
-package com.bitacademy.hellospring03.controller;
+package com.bitacademy.hellospring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.bitacademy.hellospring03.vo.UserVo;
+import com.bitacademy.hellospring.vo.UserVo;
 
 /**
  * 
