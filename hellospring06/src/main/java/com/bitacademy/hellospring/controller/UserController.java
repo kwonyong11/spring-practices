@@ -23,13 +23,13 @@ public class UserController {
 	
 	@RequestMapping(value="/join", method=RequestMethod.GET)
 	public String join() {
-		return "/WEB-INF/views/join.jsp";
+		return "join";
 	}
 	
 	@RequestMapping(value="/join", method=RequestMethod.POST)
 //	public String join(String name,String email,String password)
 	public String join(UserVo vo) {
-		System.out.println("UserController:join2:" + vo);
+		System.out.println("UserController:join:" + vo);
 		return "redirect:/";
 	}
 	
